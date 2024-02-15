@@ -1,0 +1,107 @@
+body {
+  font-family: "Fredoka", sans-serif;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* main styles */
+
+.main-body {
+  text-align: center;
+}
+
+#section {
+  width: 500px;
+  margin: 200px auto;
+}
+
+.main-body h1 {
+  color: #000000;
+}
+
+.inputArea textarea {
+  width: 80%;
+  height: 200px;
+  padding: 10px;
+  font-family: "Fredoka", sans-serif;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: 300ms;
+  outline: 0;
+}
+
+.inputArea textarea:hover,
+textarea:focus {
+  border: 2px solid #af166a;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons button {
+  width: 25%;
+  height: 30px;
+  margin: 10px;
+  border-radius: 5px;
+  border: 0;
+  font-family: "Fredoka", sans-serif;
+  color: #000000;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+button:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+#generate {
+  background-color: #f72798;
+  transition: 300ms;
+}
+
+#generate:hover {
+  background-color: #af166a;
+  transition: 0.2s;
+  width: 30%;
+}
+#clear {
+  background-color: #f57d1f;
+  transition: 300ms;
+}
+
+#clear:hover {
+  background-color: #bb5c14;
+  transition: 0.2s;
+  width: 30%;
+}
+
+#copy {
+  background-color: #ebf400;
+  transition: 300ms;
+}
+
+#copy:hover {
+  background-color: #939710;
+  transition: 0.2s;
+  width: 30%;
+}
+
+credit {
+  color: #af166a;
+  margin-left: 27%;
+}
